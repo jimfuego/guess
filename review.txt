@@ -1,0 +1,10 @@
+The site looks good and the ocde looks clean. I left a few minor comments in routes/index.js. 
+The only other comment I have is that the w3 validator produces the following comment for you url:
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bad value https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons for attribute href on element link: Illegal character in query: | is not allowed.
+
+From line 1, column 351; to line 1, column 479
+
+con.png"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"/><link 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
