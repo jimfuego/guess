@@ -54,6 +54,8 @@ function login(req, res) {
     // // Connection URL
     // const url = "mongodb://localhost:27017";
     // // Connection URL of cluster
+    
+    //this should not be here
     // //const url = "mongodb+srv://user:1234@cluster0-ewiok.mongodb.net/test?retryWrites=true";
 
     // // Database Name
@@ -435,6 +437,7 @@ function addCount(req, res) {
     });
 }
 
+//defining a connect() function that takes a callback could clean up your code a bit
 
 /* GET home page. */
 /*
